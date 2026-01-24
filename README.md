@@ -46,7 +46,6 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - Redux - JS library
 - React-redux - JS library
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
