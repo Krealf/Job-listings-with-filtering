@@ -1,23 +1,24 @@
 import PropTypes from 'prop-types';
-import { Badge } from '../UI/Badge.jsx';
-import { Card } from '../UI/Card.jsx';
-import { Stack } from '../UI/Stack.jsx';
+import {Badge} from '../UI/Badge.jsx';
+import {Card} from '../UI/Card.jsx';
+import {Stack} from '../UI/Stack.jsx';
 
 const JobPosition = ({
-  id,
-  company,
-  logo,
-  new: isNew,
-  featured,
-  position,
-  role,
-  level,
-  postedAt,
-  contract,
-  location,
-  languages,
-  tools,
-}) => {
+                       id,
+                       company,
+                       logo,
+                       new: isNew,
+                       featured,
+                       position,
+                       role,
+                       level,
+                       postedAt,
+                       contract,
+                       location,
+                       languages,
+                       tools,
+                       handleAddFilter,
+                     }) => {
   const badges = [].concat(role, level, ...languages, ...tools);
 
   return (
@@ -35,12 +36,18 @@ const JobPosition = ({
               {(isNew || featured) && (
                 <Stack>
                   {isNew && (
-                    <Badge variant="rounded" colorScheme="primary">
+                    <Badge
+                      variant="rounded"
+                      colorScheme="primary"
+                    >
                       NEW!
                     </Badge>
                   )}
                   {featured && (
-                    <Badge variant="rounded" colorScheme="dark">
+                    <Badge
+                      variant="rounded"
+                      colorScheme="dark"
+                    >
                       FEATURED
                     </Badge>
                   )}
@@ -65,7 +72,10 @@ const JobPosition = ({
         </div>
         <Stack>
           {badges.map(item => (
-            <Badge key={item}>{item}</Badge>
+            <Badge
+              key={item}
+              onClick={() => handleAddFilter(item)}
+            >{item}</Badge>
           ))}
         </Stack>
       </div>
@@ -89,4 +99,5 @@ JobPosition.propTypes = {
   location: PropTypes.string,
   languages: PropTypes.arrayOf(PropTypes.string),
   tools: PropTypes.arrayOf(PropTypes.string),
+  handleAddFilter: PropTypes.func,
 };
