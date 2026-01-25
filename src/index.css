@@ -1,4 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap');
+@font-face {
+  font-family: "Spartan";
+  src: url("./fonts/LeagueSpartan-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Spartan";
+  src: url("./fonts/LeagueSpartan-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 * {
   box-sizing: border-box;
@@ -34,7 +48,6 @@ body {
 }
 
 .container {
-  width: 100;
   padding: 0 0.75rem;
   margin: 0 auto;
 }
@@ -114,6 +127,15 @@ body {
   background-color: var(--grey-200);
   color: var(--primary);
 }
+
+.badge--rounded {
+  border-radius: 1rem;
+}
+
+.badge--rounded > span {
+  font-size: 0.7rem;
+}
+
 .badge-remover {
   background-color: var(--primary);
   color: var(--grey-100);
@@ -196,7 +218,7 @@ body {
   content: '';
   position: absolute;
   right: -6px;
-  top: 6px;
+  top: 4px;
   width: 4px;
   height: 4px;
   background-color: var(--grey-800);
