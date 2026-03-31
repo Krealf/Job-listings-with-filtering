@@ -1,10 +1,9 @@
 import PropTypes from 'prop-types';
-import {Badge} from '../UI/Badge.jsx';
-import {Card} from '../UI/Card.jsx';
-import {Stack} from '../UI/Stack.jsx';
+import {Badge} from '../../UI/Badge.jsx';
+import {Card} from '../../UI/Card.jsx';
+import {Stack} from '../../UI/Stack.jsx';
 
 const JobPosition = ({
-                       id,
                        company,
                        logo,
                        new: isNew,

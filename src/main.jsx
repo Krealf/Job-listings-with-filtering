@@ -5,12 +5,13 @@ import { PersistGate } from 'redux-persist/integration/react'
 
 import './index.css'
 import App from './App.jsx'
-import {persistor, store} from "./store/index.js";
+
+import {persistor, store} from "./store.js"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
-      {/* Здесь мы можем передать прелоадер*/}
+       {/*Здесь мы можем передать прелоадер*/}
       <PersistGate loading={null} persistor={persistor}>
         <App />
       </PersistGate>
