@@ -24,10 +24,11 @@ Users should be able to:
 
 ### Screenshots
 
+<img alt="FireShot Capture 005 - Job List -  krealf github io" src="https://github.com/user-attachments/assets/94411d0d-4a03-4580-b15e-0242e0d67f7a" />
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/a-website-listing-employees-with-rtk-react-mui--qsxOnCwWl)
 - Live Site URL: [GitHub Pages](https://krealf.github.io/job-listings-with-filtering/)
 
 ## My process
