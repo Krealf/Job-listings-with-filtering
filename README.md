@@ -10,11 +10,7 @@ This is a solution to the [Job listings with filtering challenge on Frontend Men
     - [Links](#links)
 - [My process](#my-process)
     - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -26,14 +22,13 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Filter job listings based on the categories
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.jpg)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://krealf.github.io/job-listings-with-filtering/)
 
 ## My process
 
@@ -47,23 +42,8 @@ Users should be able to:
 - Redux - JS library
 - React-redux - JS library
 
-### What I learned
-
-
-
-### Continued development
-
-
-
-### Useful resources
-
-
-
 ## Author
 
 - Frontend Mentor - [@krealf](https://www.frontendmentor.io/profile/Krealf)
 - Telegram - [@krealf](https://t.me/krealf)
-
-
-## Acknowledgments
 
